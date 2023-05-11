@@ -2,10 +2,6 @@ from random import choice
 
 import requests
 
-WORDS_SUBWORDS = "https://www.jsonkeeper.com/b/2Y4S"
-
-
-# WORDS_SUBWORDS = "https://www.jsonkeeper.com/b/WO2Y"
 
 def load_words_subwords(list_word: str):
     f = requests.get(list_word)
